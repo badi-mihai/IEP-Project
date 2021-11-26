@@ -1,0 +1,3 @@
+/home/badi/IEP/build/CMakeFiles/rebuild_cache.dir
+/home/badi/IEP/build/CMakeFiles/edit_cache.dir
+/home/badi/IEP/build/CMakeFiles/proiect2.dir
