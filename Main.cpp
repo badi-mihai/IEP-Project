@@ -1,7 +1,26 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <thread>
+#include <chrono>
+#include <mutex>
 #include "TownHall.cpp"
+
+std::mutex counter_mutex;
+
+void adauga_fonduri(TownHall *town_hall, Mayor *mayor)
+{
+	for(int i = 0; i<3; i++){
+		counter_mutex.lock();
+		town_hall->fonduri++;
+
+		std::cout << "Updated from " << mayor->getFirstName() << " " << mayor->getLastName() << " thread" << std::endl;
+		std::cout << "Fonduri: " << town_hall->fonduri << std::endl;
+		
+		std::this_thread::sleep_for(std::chrono::seconds(1));
+		counter_mutex.unlock();
+	}
+}
 
 int main(int argc, char** argv){
 
@@ -9,9 +28,9 @@ int main(int argc, char** argv){
 	ConferenceRoom *c2 = new ConferenceRoom("Sala 2", 5);
 	ConferenceRoom *c3 = new ConferenceRoom("Sala 3", 1);
 
-	Mayor *m1 = new Mayor(35, "Ion", "Sturion", c1);
-	Mayor *m2 = new Mayor(35, "Gigel", "Frone", c2);
-	Mayor *m3 = new Mayor(35, "Mircea", "Badea", c3);
+	Mayor *m1 = new Mayor(35, "First", "Mayor", c1);
+	Mayor *m2 = new Mayor(35, "Second", "Mayor", c2);
+	Mayor *m3 = new Mayor(35, "Third", "Mayor", c3);
 
 	TownHall *p1 = new TownHall("Timisoara", "ceva adresa", *m1);
 	TownHall *p2 = new TownHall("Bucuresti", "Strada Maritirlor", *m2);
@@ -57,6 +76,24 @@ int main(int argc, char** argv){
 	std::cout << "Mayor " << m1->getFirstName() << " " << m1->getLastName() << "----> Conference Room: " << m1->conference_room->getRoomName() << std::endl;
 	std::cout << "Mayor " << m2->getFirstName() << " " << m2->getLastName() << "----> Conference Room: " << m2->conference_room->getRoomName() << std::endl;
 	std::cout << "Mayor " << m3->getFirstName() << " " << m3->getLastName() << "----> Conference Room: " << m3->conference_room->getRoomName() << std::endl;
+
+
+	std::cout << "Starting firs thread" << std::endl;
+    std::thread first_thread(adauga_fonduri, p1, m1);
+
+    std::cout << "Starting second thread" << std::endl;
+    std::thread second_thread(adauga_fonduri, p1, m2);
+
+	std::cout << "Starting third thread" << std::endl;
+    std::thread third_thread(adauga_fonduri, p1, m3);
+
+
+    first_thread.join();
+    std::cout << "First Thread is done." << std::endl;
+    second_thread.join();
+    std::cout << "Second Thread is done." << std::endl;
+	third_thread.join();
+    std::cout << "Third Thread is done." << std::endl;
 
 	return 0;
 }

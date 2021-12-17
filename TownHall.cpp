@@ -8,12 +8,12 @@ class TownHall
 {
 	private:
 
-	
     std::string city;
     std::string address;
 
 	public:
     std::unique_ptr<Mayor> mayor;
+    int fonduri = 0;
 	
 	TownHall(const std::string &city, const std::string &address, Mayor &mayor)
 	: city(city),

@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/proiect2.dir/Main.cpp.o CMakeFiles/proiect2.dir/Mayor.cpp.o CMakeFiles/proiect2.dir/TownHall.cpp.o CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o  -o proiect2 
+/usr/bin/c++  -pthread  -rdynamic CMakeFiles/proiect2.dir/Main.cpp.o CMakeFiles/proiect2.dir/Mayor.cpp.o CMakeFiles/proiect2.dir/TownHall.cpp.o CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o  -o proiect2 
