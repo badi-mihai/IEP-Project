@@ -123,32 +123,32 @@ proiect2/fast:
 	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/build
 .PHONY : proiect2/fast
 
-Employee.o: Employee.cpp.o
+ConferenceRoom.o: ConferenceRoom.cpp.o
 
-.PHONY : Employee.o
+.PHONY : ConferenceRoom.o
 
 # target to build an object file
-Employee.cpp.o:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Employee.cpp.o
-.PHONY : Employee.cpp.o
+ConferenceRoom.cpp.o:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o
+.PHONY : ConferenceRoom.cpp.o
 
-Employee.i: Employee.cpp.i
+ConferenceRoom.i: ConferenceRoom.cpp.i
 
-.PHONY : Employee.i
+.PHONY : ConferenceRoom.i
 
 # target to preprocess a source file
-Employee.cpp.i:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Employee.cpp.i
-.PHONY : Employee.cpp.i
+ConferenceRoom.cpp.i:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/ConferenceRoom.cpp.i
+.PHONY : ConferenceRoom.cpp.i
 
-Employee.s: Employee.cpp.s
+ConferenceRoom.s: ConferenceRoom.cpp.s
 
-.PHONY : Employee.s
+.PHONY : ConferenceRoom.s
 
 # target to generate assembly for a file
-Employee.cpp.s:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Employee.cpp.s
-.PHONY : Employee.cpp.s
+ConferenceRoom.cpp.s:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/ConferenceRoom.cpp.s
+.PHONY : ConferenceRoom.cpp.s
 
 Main.o: Main.cpp.o
 
@@ -177,59 +177,59 @@ Main.cpp.s:
 	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
-Manager.o: Manager.cpp.o
+Mayor.o: Mayor.cpp.o
 
-.PHONY : Manager.o
-
-# target to build an object file
-Manager.cpp.o:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Manager.cpp.o
-.PHONY : Manager.cpp.o
-
-Manager.i: Manager.cpp.i
-
-.PHONY : Manager.i
-
-# target to preprocess a source file
-Manager.cpp.i:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Manager.cpp.i
-.PHONY : Manager.cpp.i
-
-Manager.s: Manager.cpp.s
-
-.PHONY : Manager.s
-
-# target to generate assembly for a file
-Manager.cpp.s:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Manager.cpp.s
-.PHONY : Manager.cpp.s
-
-Worker.o: Worker.cpp.o
-
-.PHONY : Worker.o
+.PHONY : Mayor.o
 
 # target to build an object file
-Worker.cpp.o:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Worker.cpp.o
-.PHONY : Worker.cpp.o
+Mayor.cpp.o:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Mayor.cpp.o
+.PHONY : Mayor.cpp.o
 
-Worker.i: Worker.cpp.i
+Mayor.i: Mayor.cpp.i
 
-.PHONY : Worker.i
+.PHONY : Mayor.i
 
 # target to preprocess a source file
-Worker.cpp.i:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Worker.cpp.i
-.PHONY : Worker.cpp.i
+Mayor.cpp.i:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Mayor.cpp.i
+.PHONY : Mayor.cpp.i
 
-Worker.s: Worker.cpp.s
+Mayor.s: Mayor.cpp.s
 
-.PHONY : Worker.s
+.PHONY : Mayor.s
 
 # target to generate assembly for a file
-Worker.cpp.s:
-	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Worker.cpp.s
-.PHONY : Worker.cpp.s
+Mayor.cpp.s:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/Mayor.cpp.s
+.PHONY : Mayor.cpp.s
+
+TownHall.o: TownHall.cpp.o
+
+.PHONY : TownHall.o
+
+# target to build an object file
+TownHall.cpp.o:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/TownHall.cpp.o
+.PHONY : TownHall.cpp.o
+
+TownHall.i: TownHall.cpp.i
+
+.PHONY : TownHall.i
+
+# target to preprocess a source file
+TownHall.cpp.i:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/TownHall.cpp.i
+.PHONY : TownHall.cpp.i
+
+TownHall.s: TownHall.cpp.s
+
+.PHONY : TownHall.s
+
+# target to generate assembly for a file
+TownHall.cpp.s:
+	$(MAKE) -f CMakeFiles/proiect2.dir/build.make CMakeFiles/proiect2.dir/TownHall.cpp.s
+.PHONY : TownHall.cpp.s
 
 # Help Target
 help:
@@ -240,18 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... proiect2"
-	@echo "... Employee.o"
-	@echo "... Employee.i"
-	@echo "... Employee.s"
+	@echo "... ConferenceRoom.o"
+	@echo "... ConferenceRoom.i"
+	@echo "... ConferenceRoom.s"
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
-	@echo "... Manager.o"
-	@echo "... Manager.i"
-	@echo "... Manager.s"
-	@echo "... Worker.o"
-	@echo "... Worker.i"
-	@echo "... Worker.s"
+	@echo "... Mayor.o"
+	@echo "... Mayor.i"
+	@echo "... Mayor.s"
+	@echo "... TownHall.o"
+	@echo "... TownHall.i"
+	@echo "... TownHall.s"
 .PHONY : help
 
 

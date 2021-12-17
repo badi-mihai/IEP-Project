@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/badi/IEP/Employee.cpp
+/home/badi/IEP/ConferenceRoom.cpp
 iostream
 -
 string
@@ -21,26 +21,30 @@ string
 -
 vector
 -
-Manager.cpp
-/home/badi/IEP/Manager.cpp
-Worker.cpp
-/home/badi/IEP/Worker.cpp
+TownHall.cpp
+/home/badi/IEP/TownHall.cpp
 
-/home/badi/IEP/Manager.cpp
+/home/badi/IEP/Mayor.cpp
 iostream
 -
 string
 -
 vector
 -
+memory
+-
+ConferenceRoom.cpp
+/home/badi/IEP/ConferenceRoom.cpp
 
-/home/badi/IEP/Worker.cpp
+/home/badi/IEP/TownHall.cpp
 iostream
 -
 string
 -
 vector
 -
-Employee.cpp
-/home/badi/IEP/Employee.cpp
+Mayor.cpp
+/home/badi/IEP/Mayor.cpp
+memory
+-
 

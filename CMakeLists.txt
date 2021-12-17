@@ -20,6 +20,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 #Define executable
 add_executable(${PROJECT_NAME} 
 	Main.cpp
-	Employee.cpp
-	Manager.cpp
-	Worker.cpp)
+	Mayor.cpp 
+	TownHall.cpp
+	ConferenceRoom.cpp)

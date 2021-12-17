@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/badi/IEP/Employee.cpp" "/home/badi/IEP/build/CMakeFiles/proiect2.dir/Employee.cpp.o"
+  "/home/badi/IEP/ConferenceRoom.cpp" "/home/badi/IEP/build/CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o"
   "/home/badi/IEP/Main.cpp" "/home/badi/IEP/build/CMakeFiles/proiect2.dir/Main.cpp.o"
-  "/home/badi/IEP/Manager.cpp" "/home/badi/IEP/build/CMakeFiles/proiect2.dir/Manager.cpp.o"
-  "/home/badi/IEP/Worker.cpp" "/home/badi/IEP/build/CMakeFiles/proiect2.dir/Worker.cpp.o"
+  "/home/badi/IEP/Mayor.cpp" "/home/badi/IEP/build/CMakeFiles/proiect2.dir/Mayor.cpp.o"
+  "/home/badi/IEP/TownHall.cpp" "/home/badi/IEP/build/CMakeFiles/proiect2.dir/TownHall.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

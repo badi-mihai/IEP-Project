@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/proiect2.dir/Employee.cpp.o"
+  "CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o"
   "CMakeFiles/proiect2.dir/Main.cpp.o"
-  "CMakeFiles/proiect2.dir/Manager.cpp.o"
-  "CMakeFiles/proiect2.dir/Worker.cpp.o"
+  "CMakeFiles/proiect2.dir/Mayor.cpp.o"
+  "CMakeFiles/proiect2.dir/TownHall.cpp.o"
   "proiect2"
   "proiect2.pdb"
 )

@@ -70,59 +70,59 @@ CMakeFiles/proiect2.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect2.dir/Main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badi/IEP/Main.cpp -o CMakeFiles/proiect2.dir/Main.cpp.s
 
-CMakeFiles/proiect2.dir/Employee.cpp.o: CMakeFiles/proiect2.dir/flags.make
-CMakeFiles/proiect2.dir/Employee.cpp.o: ../Employee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/badi/IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proiect2.dir/Employee.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect2.dir/Employee.cpp.o -c /home/badi/IEP/Employee.cpp
+CMakeFiles/proiect2.dir/Mayor.cpp.o: CMakeFiles/proiect2.dir/flags.make
+CMakeFiles/proiect2.dir/Mayor.cpp.o: ../Mayor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/badi/IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proiect2.dir/Mayor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect2.dir/Mayor.cpp.o -c /home/badi/IEP/Mayor.cpp
 
-CMakeFiles/proiect2.dir/Employee.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect2.dir/Employee.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badi/IEP/Employee.cpp > CMakeFiles/proiect2.dir/Employee.cpp.i
+CMakeFiles/proiect2.dir/Mayor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect2.dir/Mayor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badi/IEP/Mayor.cpp > CMakeFiles/proiect2.dir/Mayor.cpp.i
 
-CMakeFiles/proiect2.dir/Employee.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect2.dir/Employee.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badi/IEP/Employee.cpp -o CMakeFiles/proiect2.dir/Employee.cpp.s
+CMakeFiles/proiect2.dir/Mayor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect2.dir/Mayor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badi/IEP/Mayor.cpp -o CMakeFiles/proiect2.dir/Mayor.cpp.s
 
-CMakeFiles/proiect2.dir/Manager.cpp.o: CMakeFiles/proiect2.dir/flags.make
-CMakeFiles/proiect2.dir/Manager.cpp.o: ../Manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/badi/IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proiect2.dir/Manager.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect2.dir/Manager.cpp.o -c /home/badi/IEP/Manager.cpp
+CMakeFiles/proiect2.dir/TownHall.cpp.o: CMakeFiles/proiect2.dir/flags.make
+CMakeFiles/proiect2.dir/TownHall.cpp.o: ../TownHall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/badi/IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proiect2.dir/TownHall.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect2.dir/TownHall.cpp.o -c /home/badi/IEP/TownHall.cpp
 
-CMakeFiles/proiect2.dir/Manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect2.dir/Manager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badi/IEP/Manager.cpp > CMakeFiles/proiect2.dir/Manager.cpp.i
+CMakeFiles/proiect2.dir/TownHall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect2.dir/TownHall.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badi/IEP/TownHall.cpp > CMakeFiles/proiect2.dir/TownHall.cpp.i
 
-CMakeFiles/proiect2.dir/Manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect2.dir/Manager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badi/IEP/Manager.cpp -o CMakeFiles/proiect2.dir/Manager.cpp.s
+CMakeFiles/proiect2.dir/TownHall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect2.dir/TownHall.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badi/IEP/TownHall.cpp -o CMakeFiles/proiect2.dir/TownHall.cpp.s
 
-CMakeFiles/proiect2.dir/Worker.cpp.o: CMakeFiles/proiect2.dir/flags.make
-CMakeFiles/proiect2.dir/Worker.cpp.o: ../Worker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/badi/IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proiect2.dir/Worker.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect2.dir/Worker.cpp.o -c /home/badi/IEP/Worker.cpp
+CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o: CMakeFiles/proiect2.dir/flags.make
+CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o: ../ConferenceRoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/badi/IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o -c /home/badi/IEP/ConferenceRoom.cpp
 
-CMakeFiles/proiect2.dir/Worker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect2.dir/Worker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badi/IEP/Worker.cpp > CMakeFiles/proiect2.dir/Worker.cpp.i
+CMakeFiles/proiect2.dir/ConferenceRoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proiect2.dir/ConferenceRoom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badi/IEP/ConferenceRoom.cpp > CMakeFiles/proiect2.dir/ConferenceRoom.cpp.i
 
-CMakeFiles/proiect2.dir/Worker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect2.dir/Worker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badi/IEP/Worker.cpp -o CMakeFiles/proiect2.dir/Worker.cpp.s
+CMakeFiles/proiect2.dir/ConferenceRoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proiect2.dir/ConferenceRoom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badi/IEP/ConferenceRoom.cpp -o CMakeFiles/proiect2.dir/ConferenceRoom.cpp.s
 
 # Object files for target proiect2
 proiect2_OBJECTS = \
 "CMakeFiles/proiect2.dir/Main.cpp.o" \
-"CMakeFiles/proiect2.dir/Employee.cpp.o" \
-"CMakeFiles/proiect2.dir/Manager.cpp.o" \
-"CMakeFiles/proiect2.dir/Worker.cpp.o"
+"CMakeFiles/proiect2.dir/Mayor.cpp.o" \
+"CMakeFiles/proiect2.dir/TownHall.cpp.o" \
+"CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o"
 
 # External object files for target proiect2
 proiect2_EXTERNAL_OBJECTS =
 
 proiect2: CMakeFiles/proiect2.dir/Main.cpp.o
-proiect2: CMakeFiles/proiect2.dir/Employee.cpp.o
-proiect2: CMakeFiles/proiect2.dir/Manager.cpp.o
-proiect2: CMakeFiles/proiect2.dir/Worker.cpp.o
+proiect2: CMakeFiles/proiect2.dir/Mayor.cpp.o
+proiect2: CMakeFiles/proiect2.dir/TownHall.cpp.o
+proiect2: CMakeFiles/proiect2.dir/ConferenceRoom.cpp.o
 proiect2: CMakeFiles/proiect2.dir/build.make
 proiect2: CMakeFiles/proiect2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/badi/IEP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable proiect2"
